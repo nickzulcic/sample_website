@@ -3,17 +3,20 @@
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css"
   </head>
 
   <body>
-    <div>
+    <div class="nav-menu">
       <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html" class="nav-spacing">HTML Tags</a>
+      <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
     </div>
 
-    <h1>A Softcover Book Report</h1>
-    <h2>Moby-Dick (or, the Whale)</h2>
+    <header style="text-align: center; margin: 0 0 0 0;">
+      <h1 >A Softcover Book Report</h1>
+      <h2>Moby-Dick (or, the Whale)</h2>
+    </header>
 
     <div>
       <p>
@@ -28,21 +31,24 @@
         American literature.
       </p>
     </div>
-    <div>
-      <img src="images/sperm_whales.jpg" alt="Moby Dick">
 
+      <img src="images/sperm_whales.jpg" alt="Moby Dick" style="margin: 20px auto; display: block">
+      <!-- Display: block is used to convert an inline tag to a block tag-->
+
+    <div style="width: 500px; margin: 50px auto; padding: 30px; background-color:#fafafa;">
       <h3>Moby-Dick: A classic tale of the sea</h3>
       <a href="https://commons.wikimedia.org/wiki/File:Sperm_whale_pod.jpg" target="_blank">
-      <img src="images/moby_dick.png" alt="The Whale">
+      <img src="images/moby_dick.png" alt="The Whale" style="float: left;   height: 200px; margin: 0 40px 0 0;">
       </a>
 
       <p>
         <a href="https://www.softcover.io/read/6070fb03/moby-dick"              target="_blank" rel="noopener"><em> Moby-Dick</em></a>
         by Herman Melville begins with these immortal words:
       </p>
-      <blockquote>
+      <blockquote style="font-style: italic; font-size: 20px;">
         <p>
-          <span>Call me Ishmael.</span> Some years ago–never mind how long
+          <span style="font-style: normal; font-size: 24px; font-weight: bold; color: #0066ff;">
+            Call me Ishmael.</span> Some years ago–never mind how long
             precisely–having little or no money in my purse, and nothing
             particular to interest me on shore, I thought I would sail about a
             little and see the watery part of the world. It is a way I have of
